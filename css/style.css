@@ -1,0 +1,217 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;  
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 40px;
+}
+
+header {
+    position: relative;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 17px 0 17px 0;
+}
+
+.subheader_logo {
+    max-width: 100%; /* чтобы в будущем любая картинка не выходила за пределы колонки */
+}
+
+.subbheader_slogan {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    font-weight: 400;
+
+}
+
+.subheader_call {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: right;
+}
+
+.subheader_phone {
+    display: block;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.subheader_btn {
+    margin-top: 3px;
+    width: 172px;
+    height: 46px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/promo_bg.png') center center/cover no-repeat;
+    padding: 150px 0 135px 0;
+}
+
+.promo_header {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin: 0;
+}
+
+.promo_subheader {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin: 0; 
+    margin-top: 22px;
+}
+
+.promo_descr {
+    margin-top: 23px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+}
+
+.promo_btn {
+    display: block;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    border-radius: 3px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+    margin: 0 auto;
+    margin-top: 118px;
+
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.cause .benefits {
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 4px;
+    margin: 0 auto;
+    margin-top: 71px;
+}
+
+.cause_header {
+    color: #222222;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+.cause .cause_block {
+    display: flex;
+    margin-top: 35px;
+    /* justify-content: center;
+    align-items: center;
+    margin-top: 35px; */
+}
+
+.cause_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.cause_subheader {
+    width: 341px;
+    color: #1eacc7;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cause_text {
+    width: 341px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: justify;
+}
+
+.cause .row {
+    margin-top: 5px;
+}
+
+
+
